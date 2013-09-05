@@ -1,0 +1,49 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               ColumnWidth="400" 
+    IsOptimalParagraphEnabled="True" IsHyphenationEnabled="True" >
+    
+   
+        <Section FontSize="12" FontFamily="Verdana">
+        <Paragraph>
+
+            <Bold>K2 Main Upstairs</Bold>
+            <LineBreak />
+            Brother 8480DN - 192.168.0.251
+            
+            <LineBreak/>
+            <LineBreak />
+            
+            <Bold>K2 Human Resources</Bold>
+            <LineBreak />
+            Brother 8480DN - 192.168.0.170
+            <LineBreak/>
+            <LineBreak />
+
+            <Bold>K2 SOBU Hall</Bold>
+            <LineBreak />
+            Brother 8480DN - 192.168.0.238
+            
+            <LineBreak/>
+            <LineBreak />
+            ---------------------------------------------
+            <LineBreak/>
+            <LineBreak />
+            
+            <Bold>K9 Kennel 4</Bold>
+            <LineBreak />
+            Brother 8480DN - 192.168.4.250
+            <LineBreak/>
+            <LineBreak />
+
+            <Bold>K9 Kennel 5</Bold>
+            <LineBreak />
+            Brother 8480DN - 192.168.4.249
+            <LineBreak/>
+            <LineBreak />
+
+           
+
+        </Paragraph>            
+        
+        </Section>
+</FlowDocument>
