@@ -82,6 +82,13 @@ namespace K2ITApp.Wpf
                 LaunchInstaller(softwareToInstall);
             }
 
+            else if (softwareToInstall == "PowerPivot")
+            {
+                LoadDocumentReader("PowerPivot_Help.xaml");
+                documentReader.Visibility = Visibility.Visible;
+                LaunchInstaller(softwareToInstall);
+            }
+
             else if (softwareToInstall == "Silverlight")
             {
                 LoadDocumentReader("Silverlight_Help.xaml");
@@ -286,6 +293,22 @@ namespace K2ITApp.Wpf
                 catch (Exception e)
                 {
                     MessageBox.Show(e.Message, "Operation Cancelled" ,MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+            }
+            #endregion
+
+            #region PowerPivot
+            else if (softwareToInstall == "PowerPivot")
+            {
+                startInfo.FileName = @".\Applications\PowerPivot\";
+                try
+                {
+                    Process.Start(startInfo);
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.Message, "Operation Cancelled", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
             }

@@ -80,6 +80,10 @@
                                 <Image Source="Images\NAV.jpg" Width="48" HorizontalAlignment="Right" />
                                 <ListBoxItem Margin="5" Padding="5" VerticalAlignment="Center">NAV Role Tailored Client</ListBoxItem>
                             </StackPanel>
+                            <StackPanel Margin="5" Name="PowerPivot" Orientation="Horizontal" MouseUp="InstallSoftware_Click">
+                                <Image Source="Images\PowerPivot.jpg" Width="48" HorizontalAlignment="Right" />
+                                <ListBoxItem Margin="5" Padding="5" VerticalAlignment="Center">PowerPivot</ListBoxItem>
+                            </StackPanel>
                             <StackPanel Margin="5" Name="Silverlight" Orientation="Horizontal" MouseUp="InstallSoftware_Click">
                                 <Image Source="Images\silverlight.jpg" Width="48" HorizontalAlignment="Right" />
                                 <ListBoxItem Margin="5" Padding="5" VerticalAlignment="Center">Silverlight</ListBoxItem>
